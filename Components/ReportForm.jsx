@@ -29,7 +29,7 @@ function ReportForm({ onSubmit }) {
  
       {submitted && (
         <p className="text-green-600 text-sm font-medium mb-3 border border-green-300 bg-green-50 rounded-lg px-3 py-2">
-          ✅ Report submitted! Thank you.
+          Report submitted! Thank you.
         </p>
       )}
  

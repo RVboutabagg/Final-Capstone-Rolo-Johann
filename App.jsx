@@ -12,7 +12,7 @@ function App() {
     <div className="min-h-screen bg-gray-100 p-8 flex flex-col gap-8">
       <h1 className="text-2xl font-bold text-gray-800">Oakland Pothole Tracker — Component Preview</h1>
 
-      {/* SeverityBadge demo */}
+     
       <div>
         <h2 className="text-md font-semibold text-gray-600 mb-2">SeverityBadge Component</h2>
         <div className="flex gap-2">
@@ -22,7 +22,7 @@ function App() {
         </div>
       </div>
 
-      {/* PotholeCard demo */}
+      
       <div>
         <h2 className="text-md font-semibold text-gray-600 mb-2">PotholeCard Component</h2>
         <div className="flex flex-wrap gap-4">
@@ -41,7 +41,7 @@ function App() {
         </div>
       </div>
 
-      {/* ReportForm demo */}
+     
       <div>
         <h2 className="text-md font-semibold text-gray-600 mb-2">ReportForm Component</h2>
         <ReportForm onSubmit={handleNewReport} />
